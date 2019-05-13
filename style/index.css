@@ -1,0 +1,12 @@
+body {
+    max-width: 100%; /* 1920px */
+}
+
+#main {
+    box-sizing: content-box; /*Content-Only Dimension*/
+    border: 5px green solid;
+    /*max-width: 1520px;*/
+    margin: 0px auto;
+    padding: 0 20px;
+    max-width: 1870px;
+}
