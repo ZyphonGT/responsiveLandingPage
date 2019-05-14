@@ -97,56 +97,90 @@
         </div>
 
         <!-- Services and Three Logo -->
-        <div class=border> 
-            <div class="service-wrapper">
-                <div class="service-item" id="svc1">
-                    <h1>Services</h1>
-                    <p>Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering, thermodynamic and heat/mass balance equations. Such models typically contain inaccuracies; they also fail to factor in process changes.</p>
-                    <p>Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering,</p>
-                </div>
+        <div class="service-wrapper">
+            <div class="service-item" id="svc1">
+                <h1>Services</h1>
+                <p>Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering, thermodynamic and heat/mass balance equations. Such models typically contain inaccuracies; they also fail to factor in process changes.</p>
+                <p>Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering,</p>
+            </div>
 
-                <div class="service-item" id="threeIcon-wrapper">
-                    <div id="icon-item">
-                        <div class="icon">
-                            <i class="fas fa-globe-americas"></i>
-                        </div>
-                        <div class="icon-caption">
-                            <h6>Worldwide Provider</h6>
-                            <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
-                        </div>
+            <div class="service-item" id="threeIcon-wrapper">
+                <div id="icon-item">
+                    <div class="icon">
+                        <i class="fas fa-globe-americas"></i>
                     </div>
-
-                    <div id="icon-item">
-                        <div class="icon">
-                            <i class="fas fa-medal"></i>
-                        </div>
-                        <div class="icon-caption">
-                            <h6>Number One Supplier</h6>
-                            <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
-                        </div>
-                    </div>
-
-                    <div id="icon-item">
-                        <div class="icon">
-                            <i class="fas fa-truck"></i>
-                        </div>
-                        <div class="icon-caption">
-                            <h6>New Technologies</h6>
-                            <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
-                        </div>
+                    <div class="icon-caption">
+                        <h6>Worldwide Provider</h6>
+                        <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
                     </div>
                 </div>
 
-                <div class="service-item" id="svc3">
-
+                <div id="icon-item">
+                    <div class="icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="icon-caption">
+                        <h6>Number One Supplier</h6>
+                        <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                    </div>
                 </div>
+
+                <div id="icon-item">
+                    <div class="icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="icon-caption">
+                        <h6>New Technologies</h6>
+                        <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item" id="svc3">
+                <!-- EMPTY SPACER -->
             </div>
         </div>
     </div>
 
     <!-- contact us -->
     <footer>
-        CONTACT
+        <h1>Contact Us</h1>
+        <div class="contact-wrapper">
+            <div class="contact-spacer"></div>
+
+            <div class="contact-item">
+                <div class="contact-details">
+                    <h3>Phone</h3>
+                    <p>(+62) 813 99988972</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+            <div class="contact-details">
+                    <h3>Email</h3>
+                    <p>gimin@indotradeglobalutama.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-details">
+                    <h3>Address</h3>
+                    <p>APL Tower 25th Floor, Jl. Tj. Duren Timur II, RT.9/RW.5 Tj. Duren Sel. Grogol Petamburan, Kota Jakarta Barat</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-details">
+                    <h3>Get in Touch</h3>
+                    <a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" id="google-plus"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-spacer"></div>
+        </div>
     </footer>
     
 </body>
