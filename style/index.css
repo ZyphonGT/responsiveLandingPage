@@ -90,7 +90,7 @@ body {
 .cardIMG-item p {
     text-align: center;
     font-size: 1.25em; 
-    color: red;  
+    color: white;  
 }
 
 .cardIMG {
@@ -123,6 +123,111 @@ body {
     position: relative;
 }
 
+/************
+** PRODUCT **
+************/
+
+.product-wrapper {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+
+.product-wrapper h1 {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.product-card {
+    width: 450px;
+    height: auto;
+    margin: 20px 20px;
+}
+
+.product-card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product-caption {
+    padding :20px 5px;
+}
+
+/************
+** SERVICE **
+************/
+.service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding:20px 0;
+}
+
+.service-item {
+    height: auto;
+    width: 440px;
+    margin:20px;
+}
+
+#svc1 h1 {
+    font-weight: bold;
+    margin: 10px 0 20px;
+    color:rgb(75, 172, 225);
+}
+
+#threeIcon-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#threeIcon-wrapper div {
+    height: 100px;
+    width: 100%;
+    padding: 4px;
+    display: flex;
+}
+
+#icon-item {
+    display: flex;
+}
+
+#icon-item div {
+    height: 100%;
+}
+
+.icon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.icon i {
+    color: rgb(75, 172, 225);
+    font-size: 4em;
+}
+
+.icon-caption {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-caption h6 {
+    font-weight: bold;
+    color: rgb(75, 172, 225);
+}
+
+.icon-caption p {
+    line-height: 1.25;
+}
 
 /***********
 ** FOOTER **
