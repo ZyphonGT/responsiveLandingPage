@@ -1,3 +1,7 @@
+html {
+    overflow: auto;
+}
+
 body {
     max-width: 100%; /* 1920px */
     background-color: black;
@@ -15,6 +19,10 @@ body {
     right: 0;
 }
 
+/***********
+** BANNER **
+***********/
+
 .banner-wrapper {
     position: relative;
 }
@@ -24,19 +32,111 @@ body {
 }
 
 .banner-caption {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left:10%;
     text-align: center;
-    margin-top: -198px;
+    position: absolute;
+    top :50%;
+    left: 15%;
+    transform: translate(0,-50%);
 
-}
-
-.banner-caption h1 {
-    font-size: 5.5rem;
+    font-size: 5em;
+    /* font-size: 4vw; */
     font-weight: bold;
     color:red;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/************
+** WELCOME **
+************/
+.welcome-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.welcome-wrapper > #title {
+    /* border: 2px green solid; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.welcome-wrapper > #subtitle {
+    /* border: 2px red solid; */
+    text-align: center;
+    color: white;
+    font-family: Geneva,sans-serif;
+    width: auto;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+#subtitle .underline {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px white solid;
+}
+
+.cardIMG-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardIMG-item {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.cardIMG-item p {
+    text-align: center;
+    font-size: 1.25em; 
+    color: red;  
+}
+
+.cardIMG {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+#cardIMG-one {
+    background-image: url(https://via.placeholder.com/400x320.png);
+}
+
+#cardIMG-two {
+    background-image: url(https://via.placeholder.com/400x320.png);
+}
+
+#cardIMG-three {
+    background-image: url(https://via.placeholder.com/400x320.png);
+}
+
+.cardIMG-caption {
+    width: 100%;
+    background-color: rgba(108, 169, 221, 0.75);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+}
+
+
+/***********
+** FOOTER **
+***********/
+
+footer {
+    box-sizing: content-box; /*Content-Only Dimension*/
+    /* border: 5px green solid; */
+    /*max-width: 1520px;*/
+    margin: 0px auto;
+    max-width: 1920px;
+    position: relative;
+    left: 0;
+    right: 0;
 }
 
 *{
