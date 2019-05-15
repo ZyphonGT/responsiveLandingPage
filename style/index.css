@@ -33,6 +33,7 @@ body {
     width: 100%;
 }
 
+/*
 .banner-caption {
     text-align: center;
     position: absolute;
@@ -41,11 +42,11 @@ body {
     transform: translate(0,-50%);
 
     font-size: 5em;
-    /* font-size: 4vw; */
     font-weight: bold;
     color:white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+*/
 
 /************
 ** WELCOME **
