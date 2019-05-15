@@ -16,3 +16,33 @@
         </ul>
     </nav>
 </div>
+
+<div class="newHead">
+    <a href="#" class="logo">
+        <img src="res/img/title.png" alt="3iLogo">
+    </a>
+    <div class="menu-toggle"></div>
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">PRODUCT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+        </ul>
+    </nav>
+    <div class="clearfix"></div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('.newHead .menu-toggle').click(function(){
+            $('.newHead .menu-toggle').toggleClass('active');
+            $('.newHead nav').toggleClass('active');
+        })
+    })
+  </script>

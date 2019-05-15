@@ -4,10 +4,11 @@
     <title>iii</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <!-- Material Design Bootstrap -->
@@ -16,6 +17,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 
 <body>
@@ -29,9 +31,6 @@
         <!-- BANNER -->
         <div class="banner-wrapper">
             <img src="res/img/banner.jpg" alt="Banner">
-            <div class="banner-caption">
-                WE BUILD<br>AND<br>SOLVE THINGS
-            </div>
         </div>
         
 
@@ -165,7 +164,7 @@
             <div class="contact-item">
                 <div class="contact-details">
                     <h3>Address</h3>
-                    <p>APL Tower 25th Floor, Jl. Tj. Duren Timur II, RT.9/RW.5 Tj. Duren Sel. Grogol Petamburan, Kota Jakarta Barat</p>
+                    <p>APL Tower 25th Floor<br>Jl. Tj. Duren Timur II, RT.9/RW.5 <br>Grogol Petamburan<br>Jakarta Barat</p>
                 </div>
             </div>
 
