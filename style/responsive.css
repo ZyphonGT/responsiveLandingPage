@@ -32,6 +32,10 @@
     #contact-sosmed {
         width: auto;
     }
+
+    #svc3 {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {

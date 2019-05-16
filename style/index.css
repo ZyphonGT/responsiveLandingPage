@@ -2,6 +2,10 @@ html {
     overflow: auto;
 }
 
+.needRev {
+    color: red !important; 
+}
+
 body {
     max-width: 100%; /* 1920px */
     background-color: black;
@@ -74,10 +78,14 @@ body {
     margin-bottom: 50px;
 }
 #subtitle .underline {
+    /*
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     border-bottom: 1px white solid;
+    */
+    text-decoration: underline;
+    font-weight: 200;
 }
 
 .cardIMG-wrapper {
@@ -108,15 +116,15 @@ body {
 }
 
 #cardIMG-one {
-    background-image: url(https://via.placeholder.com/400x320.png);
+    background-image: url(../res/img/about1.jpg);
 }
 
 #cardIMG-two {
-    background-image: url(https://via.placeholder.com/400x320.png);
+    background-image: url(../res/img/about2.jpg);
 }
 
 #cardIMG-three {
-    background-image: url(https://via.placeholder.com/400x320.png);
+    background-image: url(../res/img/about3.jpg);
 }
 
 .cardIMG-caption {
@@ -191,7 +199,7 @@ body {
 #threeIcon-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #threeIcon-wrapper div {
@@ -233,6 +241,15 @@ body {
 
 .icon-caption p {
     line-height: 1.25;
+}
+
+#svc3 {
+    display: flex;
+    align-items: center;
+}
+
+#service-img {
+    max-width: 100%;
 }
 
 /***********
@@ -314,18 +331,13 @@ footer h1 {
     transition: 300ms;
 }
 
-#twitter:hover {
-    color: #00acee;
-    transition: 300ms;
-}
-
 #instagram:hover {
     color: #C13584;
     transition: 300ms;
 }
 
-#google-plus:hover {
-    color: #DD4B39;
+#linkedin:hover {
+    color: #0077B5;
     transition: 300ms;
 }
 

@@ -19,7 +19,7 @@
 
 <div class="newHead">
     <a href="#" class="logo">
-        <img src="res/img/title.png" alt="3iLogo">
+        <img src="res/img/logo.png" alt="3iLogo">
     </a>
     <div class="menu-toggle"></div>
     <nav>
@@ -39,39 +39,55 @@
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
   <script type="text/javascript">
-    /* TOGGLE NAV-MENU BUTTON */
+    
     $(document).ready(function() {
+
+        /* TOGGLE NAV-MENU BUTTON */
         $('.newHead .menu-toggle').click(function(){
             $('.newHead .menu-toggle').toggleClass('active');
             $('.newHead nav').toggleClass('active');
         })
-    })
+        
+        /* Navigation Scrolling */
+        $(".logo").click(function() {
+            $('.newHead .menu-toggle').removeClass('active');
+            $('.newHead nav').removeClass('active');
+
+            $('html,body').animate({
+            scrollTop: $("body").offset().top},'slow');
+        });
+
+        $(".nav-selection-home").click(function() {
+            $('.newHead .menu-toggle').removeClass('active');
+            $('.newHead nav').removeClass('active');
+
+            $('html,body').animate({
+            scrollTop: $("body").offset().top},'slow');
+        });
+
+        $(".nav-selection-about").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".welcome-wrapper").offset().top - $("header").outerHeight(true)},'slow');
+        });
+
+        $(".nav-selection-product").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".product-wrapper").offset().top - $("header").outerHeight(true)},'slow');
+        });
+
+        $(".nav-selection-service").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".service-wrapper").offset().top - $("header").outerHeight(true)},'slow');
+        });
+
+        $(".nav-selection-contact").click(function() {
+        $('html,body').animate({
+            scrollTop: $("footer").offset().top - $("header").outerHeight(true)},'slow');
+        });
+        })
 
 
-    /* Navigation Scrolling */
+    
 
-    $(".nav-selection-home").click(function() {
-    $('html,body').animate({
-        scrollTop: $("body").offset().top},'slow');
-    });
-
-    $(".nav-selection-about").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".welcome-wrapper").offset().top - $("header").outerHeight(true)},'slow');
-    });
-
-    $(".nav-selection-product").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".product-wrapper").offset().top - $("header").outerHeight(true)},'slow');
-    });
-
-    $(".nav-selection-service").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".service-wrapper").offset().top - $("header").outerHeight(true)},'slow');
-    });
-
-    $(".nav-selection-contact").click(function() {
-    $('html,body').animate({
-        scrollTop: $("footer").offset().top - $("header").outerHeight(true)},'slow');
-    });
+   
   </script>

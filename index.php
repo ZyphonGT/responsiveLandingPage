@@ -44,13 +44,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-interval="4000">
-                        <img src="res/img/banner.jpg" class="d-block w-100" alt="...">
+                        <img src="res/img/banner1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="4000">
-                        <img src="https://via.placeholder.com/985x372.png" class="d-block w-100" alt="...">
+                        <img src="res/img/banner2.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="4000">
-                        <img src="https://via.placeholder.com/985x372.png" class="d-block w-100" alt="...">
+                        <img src="res/img/banner3.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -70,6 +70,7 @@
         <div class="welcome-wrapper">
             <h1 id="title">WELCOME TO OUR COMPANY</h1>
             <h1 id="subtitle">
+                
                 <span class="underline">WE BRING MAINTENANCE TO THE NEXT LEVEL</span>
             </h2>
 
@@ -78,21 +79,21 @@
                     <div class="cardIMG" id="cardIMG-one">
                         <div class="cardIMG-caption"> Technology </div>
                     </div>
-                    <p>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
 
                 <div class="cardIMG-item">
                     <div class="cardIMG" id="cardIMG-two">
                         <div class="cardIMG-caption"> Quality </div>
                     </div>
-                    <p>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
 
                 <div class="cardIMG-item">
                     <div class="cardIMG" id="cardIMG-three">
                         <div class="cardIMG-caption"> The Staff </div>
                     </div>
-                    <p>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
         </div>
@@ -102,26 +103,26 @@
             <h1>Products</h1>
 
             <div class="product-card">
-                <img src="https://via.placeholder.com/440x300.png" alt="">
+                <img src="res/img/product1.jpg" alt="">
                 <div class="product-caption">
-                    <h3>New Technologies</h3>
-                    <p>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <h3 class="needRev">New Technologies</h3>
+                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
 
             <div class="product-card">
-                <img src="https://via.placeholder.com/440x300.png" alt="">
+                <img src="res/img/product2.jpg" alt="">
                 <div class="product-caption">
-                    <h3>New Technologies</h3>
-                    <p>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <h3 class="needRev">New Technologies</h3>
+                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
 
             <div class="product-card">
-                <img src="https://via.placeholder.com/440x300.png" alt="">
+                <img src="res/img/product3.jpg" alt="">
                 <div class="product-caption">
-                    <h3>New Technologies</h3>
-                    <p>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <h3 class="needRev">New Technologies</h3>
+                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
 
@@ -131,8 +132,8 @@
         <div class="service-wrapper">
             <div class="service-item" id="svc1">
                 <h1>Services</h1>
-                <p>Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering, thermodynamic and heat/mass balance equations. Such models typically contain inaccuracies; they also fail to factor in process changes.</p>
-                <p>Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering,</p>
+                <p class="needRev">Most condition monitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering, thermodynamic and heat/mass balance equations. Such models typically contain inaccuracies; they also fail to factor in process changes.</p>
+                <p class="needRev">Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering,</p>
             </div>
 
             <div class="service-item" id="threeIcon-wrapper">
@@ -142,7 +143,7 @@
                     </div>
                     <div class="icon-caption">
                         <h6>Worldwide Provider</h6>
-                        <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                        <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures</p>
                     </div>
                 </div>
 
@@ -152,7 +153,7 @@
                     </div>
                     <div class="icon-caption">
                         <h6>Number One Supplier</h6>
-                        <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                        <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures</p>
                     </div>
                 </div>
 
@@ -162,13 +163,14 @@
                     </div>
                     <div class="icon-caption">
                         <h6>New Technologies</h6>
-                        <p>Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                        <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures</p>
                     </div>
                 </div>
             </div>
 
             <div class="service-item" id="svc3">
                 <!-- EMPTY SPACER -->
+                <img src="res/img/service.jpg" alt="" id="service-img">
             </div>
         </div>
     </div>
@@ -182,21 +184,21 @@
             <div class="contact-item">
                 <div class="contact-details">
                     <h3>Phone</h3>
-                    <p>(+62) 813 99988972</p>
+                    <p>(+62) 813 999 88 972</p>
                 </div>
             </div>
 
             <div class="contact-item">
             <div class="contact-details">
                     <h3>Email</h3>
-                    <p>gimin@indotradeglobalutama.com</p>
+                    <p>sales@iii.sg</p>
                 </div>
             </div>
 
             <div class="contact-item">
                 <div class="contact-details">
                     <h3>Address</h3>
-                    <p>APL Tower 25th Floor<br>Jl. Tj. Duren Timur II, RT.9/RW.5 <br>Grogol Petamburan<br>Jakarta Barat</p>
+                    <p>8 Burn Road #12-05<br>Trivex Singapore<br>369977<br>Singapore</p>
                 </div>
             </div>
 
@@ -204,10 +206,15 @@
                 <div class="contact-details" id="sosmed-resp">
                     <h3>Get in Touch</h3>
                     <div class="contact-sosmed">
-                        <a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" id="google-plus"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" id="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" id="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" id="linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
             </div>
