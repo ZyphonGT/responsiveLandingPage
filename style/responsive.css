@@ -1,8 +1,44 @@
-@media (max-width: 1200px) {
-    
+@media (max-width: 1000px) {
+    .contact-spacer{
+        display: none;
+    }
+
+    .contact-wrapper {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-item {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-right: 0px white solid;
+    }
+    .contact-details {
+        text-align: center;
+    }
+
+    #sosmed-resp {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .contact-sosmed {
+        display: inline;
+    }
+
+    #contact-sosmed {
+        width: auto;
+    }
 }
 
 @media (max-width: 768px) {
+    header {
+        height: auto;
+    }
+
     .menu-toggle {
         display: block;
         width: 40px;
