@@ -8,11 +8,11 @@
     <nav>
         <!-- HOME PRODUCT SERVICE CONTACT ABOUT -->
         <ul>
-            <a href="#a"><li>HOME</li></a>
-            <a href="#b"><li>PRODUCT</li></a>
-            <a href="#c"><li>SERVICE</li></a>
-            <a href="#d"><li>CONTACT</li></a>
-            <a href="#e"><li>ABOUT</li></a>
+            <a class="nav-selection-home" href=""><li>HOME</li></a>
+            <a class="nav-selection-about" href=""><li>ABOUT</li></a>
+            <a class="nav-selection-product" href=""><li>PRODUCT</li></a>
+            <a class="nav-selection-service" href=""><li>SERVICE</li></a>
+            <a class="nav-selection-contact" href=""><li>CONTACT</li></a>
         </ul>
     </nav>
 </div>
@@ -24,11 +24,11 @@
     <div class="menu-toggle"></div>
     <nav>
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">PRODUCT</a></li>
-            <li><a href="#">SERVICE</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">ABOUT</a></li>
+            <li><a class="nav-selection-home">HOME</a></li>
+            <li><a class="nav-selection-about">ABOUT</a></li>
+            <li><a class="nav-selection-product">PRODUCT</a></li>
+            <li><a class="nav-selection-service">SERVICE</a></li>
+            <li><a class="nav-selection-contact">CONTACT</a></li>
         </ul>
     </nav>
     <div class="clearfix"></div>
@@ -39,10 +39,39 @@
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
   <script type="text/javascript">
+    /* TOGGLE NAV-MENU BUTTON */
     $(document).ready(function() {
         $('.newHead .menu-toggle').click(function(){
             $('.newHead .menu-toggle').toggleClass('active');
             $('.newHead nav').toggleClass('active');
         })
     })
+
+
+    /* Navigation Scrolling */
+
+    $(".nav-selection-home").click(function() {
+    $('html,body').animate({
+        scrollTop: $("body").offset().top},'slow');
+    });
+
+    $(".nav-selection-about").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".welcome-wrapper").offset().top - $("header").outerHeight(true)},'slow');
+    });
+
+    $(".nav-selection-product").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".product-wrapper").offset().top - $("header").outerHeight(true)},'slow');
+    });
+
+    $(".nav-selection-service").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".service-wrapper").offset().top - $("header").outerHeight(true)},'slow');
+    });
+
+    $(".nav-selection-contact").click(function() {
+    $('html,body').animate({
+        scrollTop: $("footer").offset().top - $("header").outerHeight(true)},'slow');
+    });
   </script>

@@ -201,12 +201,14 @@
             </div>
 
             <div class="contact-item">
-                <div class="contact-details">
+                <div class="contact-details" id="sosmed-resp">
                     <h3>Get in Touch</h3>
-                    <a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" id="google-plus"><i class="fab fa-google-plus-g"></i></a>
+                    <div class="contact-sosmed">
+                        <a href="#" id="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" id="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" id="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" id="google-plus"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
                 </div>
             </div>
 
