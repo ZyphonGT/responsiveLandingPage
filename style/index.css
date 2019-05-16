@@ -27,6 +27,7 @@ body {
 
 .banner-wrapper {
     position: relative;
+    padding-top: 80px;
 }
 
 .banner-wrapper img {
@@ -88,6 +89,8 @@ body {
 .cardIMG-item {
     width: 400px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .cardIMG-item p {
@@ -176,7 +179,7 @@ body {
 .service-item {
     height: auto;
     width: 440px;
-    margin:20px;
+    margin: 20px 20px 20px 40px;
 }
 
 #svc1 h1 {
@@ -248,13 +251,14 @@ footer {
     right: 0;
 
     background-color: white;
-    height: 500px;
+    height: auto;
 }
 
 footer h1 {
     font-weight: bold;
     text-align: center;
     width: 100%;
+    height: auto;
     margin: 10px 0;
     color: black;
 }
@@ -264,11 +268,12 @@ footer h1 {
     height: 150px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-item {
     height: 100%;
-    flex: 1;
+    flex: 3;
     border-right: 2px darkgray solid;
     display: flex;
     color: black;
@@ -296,6 +301,12 @@ footer h1 {
     color:black;
     font-size: 2em;
     margin-left: 10px;
+}
+
+.contact-sosmed {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
 }
 
 #facebook:hover {
