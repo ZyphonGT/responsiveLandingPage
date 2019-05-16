@@ -3,7 +3,7 @@ html {
 }
 
 .needRev {
-    color: red !important; 
+    /* color: red !important;  */
 }
 
 body {
@@ -66,13 +66,15 @@ body {
 .welcome-wrapper > #title {
     /* border: 2px green solid; */
     text-align: center;
+    font-family: unisans-bi;
+    color: gainsboro;
     margin-bottom: 20px;
 }
 .welcome-wrapper > #subtitle {
     /* border: 2px red solid; */
     text-align: center;
     color: white;
-    font-family: Geneva,sans-serif;
+    font-family: unisans-i;
     width: auto;
     padding: 0px 50px;
     margin-bottom: 50px;
@@ -83,9 +85,10 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     border-bottom: 1px white solid;
-    */
+
+    
     text-decoration: underline;
-    font-weight: 200;
+    */
 }
 
 .cardIMG-wrapper {
@@ -129,12 +132,13 @@ body {
 
 .cardIMG-caption {
     width: 100%;
-    background-color: rgba(108, 169, 221, 0.75);
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
     padding: 10px 0;
     font-size: 2em;
     font-weight: bold;
     position: relative;
+    font-family: unisans-bi;
 }
 
 /************
@@ -154,6 +158,7 @@ body {
 .product-wrapper h1 {
     font-weight: bold;
     text-align: center;
+    font-family: unisans-bi;
     width: 100%;
     margin: 10px 0;
 }
@@ -171,6 +176,10 @@ body {
 
 .product-caption {
     padding :20px 5px;
+}
+
+.product-caption h3 {
+    font-family: unisans-bi;
 }
 
 /************
@@ -191,9 +200,9 @@ body {
 }
 
 #svc1 h1 {
-    font-weight: bold;
+    font-family: unisans-bi;
     margin: 10px 0 20px;
-    color:rgb(75, 172, 225);
+    color:#fff;
 }
 
 #threeIcon-wrapper {
@@ -223,7 +232,7 @@ body {
 }
 
 .icon i {
-    color: rgb(75, 172, 225);
+    color: rgb(255, 255, 255);
     font-size: 4em;
 }
 
@@ -235,8 +244,8 @@ body {
 }
 
 .icon-caption h6 {
-    font-weight: bold;
-    color: rgb(75, 172, 225);
+    font-family: unisans-bi;
+    color: #fff;
 }
 
 .icon-caption p {
@@ -272,7 +281,7 @@ footer {
 }
 
 footer h1 {
-    font-weight: bold;
+    font-family: unisans-bi;
     text-align: center;
     width: 100%;
     height: auto;
@@ -301,7 +310,7 @@ footer h1 {
 }
 
 .contact-item h3 {
-    font-weight: 600;
+    font-family: unisans-i;
 
 }
 

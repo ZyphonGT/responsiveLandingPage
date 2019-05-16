@@ -1,0 +1,19 @@
+@font-face {
+    font-family: unisans-bi;
+    src: url("../res/font/uni-sans.heavy-italic-caps.otf") format("opentype");
+}
+
+@font-face {
+    font-family: unisans-b;
+    src: url("../res/font/uni-sans.heavy-caps.otf") format("opentype");
+}
+
+@font-face {
+    font-family: unisans-i;
+    src: url("../res/font/uni-sans.thin-italic-caps.otf") format("opentype");
+}
+
+@font-face {
+    font-family: unisans;
+    src: url("../res/font/uni-sans.thin-caps.otf") format("opentype");
+}

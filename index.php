@@ -1,7 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <title>iii</title>
+    <title>Integral Industrial International</title>
+
+    
+    <link rel="icon" type="image/png" href="res/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="res/img/favicon-16x16.png" sizes="16x16" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -21,6 +26,7 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/font.css">
 </head>
 
 <body>
@@ -79,21 +85,21 @@
                     <div class="cardIMG" id="cardIMG-one">
                         <div class="cardIMG-caption"> Technology </div>
                     </div>
-                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <p class="needRev">[1.A]<br>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
 
                 <div class="cardIMG-item">
                     <div class="cardIMG" id="cardIMG-two">
                         <div class="cardIMG-caption"> Quality </div>
                     </div>
-                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <p class="needRev">[1.B]<br>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
 
                 <div class="cardIMG-item">
                     <div class="cardIMG" id="cardIMG-three">
                         <div class="cardIMG-caption"> The Staff </div>
                     </div>
-                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <p class="needRev">[1.C]<br>Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
         </div>
@@ -105,24 +111,24 @@
             <div class="product-card">
                 <img src="res/img/product1.jpg" alt="">
                 <div class="product-caption">
-                    <h3 class="needRev">New Technologies</h3>
-                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <h3 class="needRev">[2.A.1] New Technologies</h3>
+                    <p class="needRev">[2.A.2] Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
 
             <div class="product-card">
                 <img src="res/img/product2.jpg" alt="">
                 <div class="product-caption">
-                    <h3 class="needRev">New Technologies</h3>
-                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <h3 class="needRev">[2.B.1] New Technologies</h3>
+                    <p class="needRev">[2.B.2] Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
 
             <div class="product-card">
                 <img src="res/img/product3.jpg" alt="">
                 <div class="product-caption">
-                    <h3 class="needRev">New Technologies</h3>
-                    <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
+                    <h3 class="needRev">[2.C.1] New Technologies</h3>
+                    <p class="needRev">[2.C.2] Vibsense delivers the earliest and most accurate warning of equipment failures and prescribes detailed actions to mitigate risks and solve problems.</p>
                 </div>
             </div>
 
@@ -132,7 +138,7 @@
         <div class="service-wrapper">
             <div class="service-item" id="svc1">
                 <h1>Services</h1>
-                <p class="needRev">Most condition monitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering, thermodynamic and heat/mass balance equations. Such models typically contain inaccuracies; they also fail to factor in process changes.</p>
+                <p class="needRev">[3.A] Most condition monitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering, thermodynamic and heat/mass balance equations. Such models typically contain inaccuracies; they also fail to factor in process changes.</p>
                 <p class="needRev">Most condition monnitoring products only detect anomalies by trying to identify when actual behavior differs from what is expected. The most common approach is to use mathematical or statistical models based on engineering,</p>
             </div>
 
@@ -142,8 +148,8 @@
                         <i class="fas fa-globe-americas"></i>
                     </div>
                     <div class="icon-caption">
-                        <h6>Worldwide Provider</h6>
-                        <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                        <h6 class="needRev">[3.B.1.a] Worldwide Provider</h6>
+                        <p class="needRev">[3.B.1.b] Vibsense delivers the earliest and most accurate warning of equipment failures</p>
                     </div>
                 </div>
 
@@ -152,8 +158,8 @@
                         <i class="fas fa-medal"></i>
                     </div>
                     <div class="icon-caption">
-                        <h6>Number One Supplier</h6>
-                        <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                        <h6 class="needRev">[3.B.2.a] Number One Supplier</h6>
+                        <p class="needRev">[3.B.2.b] Vibsense delivers the earliest and most accurate warning of equipment failures</p>
                     </div>
                 </div>
 
@@ -162,8 +168,8 @@
                         <i class="fas fa-truck"></i>
                     </div>
                     <div class="icon-caption">
-                        <h6>New Technologies</h6>
-                        <p class="needRev">Vibsense delivers the earliest and most accurate warning of equipment failures</p>
+                        <h6 class="needRev">[3.B.3.a] New Technologies</h6>
+                        <p class="needRev">[3.B.3.b] Vibsense delivers the earliest and most accurate warning of equipment failures</p>
                     </div>
                 </div>
             </div>
