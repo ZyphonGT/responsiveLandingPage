@@ -46,6 +46,7 @@ header {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+    user-select: none;
 }
 
 .newHead nav ul li a:hover, 
