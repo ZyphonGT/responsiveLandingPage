@@ -40,8 +40,13 @@
         <!-- BANNER -->
         <div class="banner-wrapper">
             <!-- <img src="res/img/banner.jpg" alt="Banner"> -->
+ 
+            <video muted autoplay loop>
+                <source src="res/video/nightcity.mp4" type="video/mp4">
+            </video>
 
-            <!-- CAROUSEL -->
+
+            <!-- CAROUSEL
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -68,7 +73,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <!-- END OF CAROUSEL -->
+            END OF CAROUSEL -->
         </div>
         
 
